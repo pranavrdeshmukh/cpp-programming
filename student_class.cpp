@@ -1,32 +1,30 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class student{
+class Student{
 private:
 string name;
 int roll;
 float marks;
 public:
 void input(){
-cout<<"enter your name:"<<endl;
+cout<<"Enter your name"<<endl;
 cin>>name;
-cout<<"enter your roll no."<<endl;
+cout<<"Enter your roll no."<<endl;
 cin>>roll;
-cout<<"enter your marks:"<<endl;
+cout<<"Enter your marks:"<<endl;
 cin>>marks;
 }
 void display(){
-cout<<"name:"<<name;
-cout<<"roll no"<<roll;
-cout<<"marks"<<marks;
+cout<<"name:"<<name<<endl;
+cout<<"roll no."<<roll<<endl;
+cout<<"marks:"<<marks<<endl;
 }
 };
 int main(){
-student s;
+Student s;
 s.input();
 s.display();
 return 0;
 }
 
- 
- 

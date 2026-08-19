@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 class Employ{
-private:
+public:
 string eid;
 string ename;
 float esalary;
@@ -18,17 +18,19 @@ cin>>esalary;
 cout<<"enter your department:"<<endl;
 cin>>edep;
 }
-void display(){
+void dispaly(){
 cout<<"id:"<<eid<<endl;
-cout<<"name"<<ename<<endl;
-cout<<"salary"<<esalary<<endl;
-cout<<"department"<<edep<<endl;
+cout<<"name."<<ename<<endl;
+cout<<"salary:"<<esalary<<endl;
+cout<<"department:"<<edep<<endl;
 }
 };
 int main(){
 Employ e;
 e.input();
-e.display();
+e.dispaly();
 return 0;
 }
+
+
 
